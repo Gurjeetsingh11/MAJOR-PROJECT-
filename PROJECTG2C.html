@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>G2Color Transformation</title>
+	<link rel="stylesheet" href="styleG2C.css">
+	<link rel="icon" href="C:\Users\gurjeet\Documents\HTML\image\g2c.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<body>
+
+	<div id="menu-bar" class="fas fa-bars"> 
+	</div>
+	<header>
+		<a class="logo"><img src="C:\Users\gurjeet\Documents\HTML\image\g2c.png" alt="logo"><span>G2COLOR <br></span>TRANSFORMATION</a>
+		<nav class="navbar">
+			<a href="#home">HOME</a>
+			<a href="#about">ABOUT</a>
+			<a href="#project">PROJECT</a>
+			<a href="#cnn">CNN?</a>
+			<a href="#applications">APPLICATIONS</a>
+		</nav>
+		<div class="follow">
+			<a href="" class="fa fa-github"></a>
+		</div>
+	</header>
+
+	<!-- HOME SECTION -->
+	<section class="home" id="home">
+		<div class="content">
+			<marquee><span class="hi">GREY TO COLOUR TRANSFORMATION</span></marquee>
+			<p class="text">HELLO EVERYONE !!!!<br>
+			In this Project we have described a method for Transformation of grey Scale image to color image.</p>
+			<a href="#about" class="btn">about project</a>
+		</div>
+		<div class="image">
+			<img src="C:\Users\gurjeet\Documents\HTML\image\tiger.jpg" width="100vh">
+		</div>
+	</section>
+	<!-- HOME SECTION END -->
+	<!-- ABOUT SECTION -->
+	<section class="about" id="about">
+		<h1 class="heading"><span> About</span></h1>
+		<div class="row-1">
+			<div class="image">
+				 <img src="C:\Users\gurjeet\Documents\HTML\image\campaign.jpg" alt="campaign" width="60%" height="10%">
+			</div>
+			<div class="content">
+				<h3>THIS PROJECT IS BASED ON <br> Machine Learning & Deep Learning</h3>
+		</div>
+	</div>
+		<p class="text">In the last three decades, we have seen a rapid and enormous transition from grayscale images to color ones. <br>
+			Today, we are exposed to color images on a daily basis in print, photographs, television, computer displays, and cinema movies, where color now plays a vital role in the advertising and dissemination of information throughout the world. 
+			<br><br>
+			Color monitors, printers, and copiers now dominate the office and home environments, with color becoming increasingly cheaper and easier to generate and reproduce.<br><br>
+
+		With this rapid progression, color and multispectral properties of images are becoming increasingly crucial to the field of image processing, often extending and/or replacing previously known grayscale techniques. 
+		<br><br>We have seen the birth of color algorithms that range from direct extensions of grayscale ones, where images are treated as three monochrome separations, to more sophisticated approaches that exploit the correlations among the color bands, yielding more accurate results.
+		<br> <br>Hence, it is becoming increasingly necessary for the signal processing community to understand the fundamental differences between color and grayscale imaging.</p>
+		<a href="#project" class="btn">Main project</a>
+	</section>
+	<!-- ABOUT SECTION END-->
+	<!-- MAIN PROJECT SECTION START -->
+
+	<section class="project" id="project">
+		<div class="container">
+		<input type="file" id="file" accept="image/*" hidden>	
+		<div class="img-area " data-img="">
+			<i class="fa-solid fa-cloud-arrow-up icon"></i>
+			<h1>UPLOAD FILE</h1>
+			<p>CHOOSE IMAGE TO CONVERT IT TO COLOURFULL</p>
+			
+		</div>
+		<button class="select-image">BROWSE</button>
+	</div>
+
+	</section>
+	<a href="#cnn" class="btn1">ABOUT CNN</a>
+	<script src="script.js"></script>
+	<!-- MAIN PROJECT SECTION END -->
+	<!-- CNN SECTION START -->
+	<section class="cnn" id="cnn"> 
+		<h1 class="heading-cnn"> CNN ( CONVOLUTION NEURAL NETWORK ): </h1>
+		<div class="thumbnail-right">
+				 <img src="C:\Users\gurjeet\Documents\Downloads\1846920.jpg" alt="campaign" width="60%" height="10%">
+			</div>
+			<h4>BACKGROUND OF CNN</h4>
+			<p>CNN’s were first developed and used around the 1980s. The most that a CNN could do at that time was recognize handwritten digits. It was mostly used in the postal sectors to read zip codes, pin codes, etc. The important thing to remember about any deep learning model is that it requires a large amount of data to train and also requires a lot of computing resources. This was a major drawback for CNNs at that period and hence CNNs were only limited to the postal sectors and it failed to enter the world of machine learning.In 2012 Alex Krizhevsky realized that it was time to bring back the branch of deep learning that uses multi-layered neural networks. The availability of large sets of data, to be more specific ImageNet datasets with millions of labeled images and an abundance of computing resources enabled researchers to revive CNNs.</p>
+			<h4>WHAT IS CNN ?</h4>
+			<p>A Convolutional Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks. It is made up of multiple layers, including convolutional layers, pooling layers, and fully connected layersThe convolutional layers are the key component of a CNN, where filters are applied to the input image to extract features such as edges, textures, and shapes. The output of the convolutional layers is then passed through pooling layers, which are used to down-sample the feature maps, reducing the spatial dimensions while retaining the most important information. The output of the pooling layers is then passed through one or more fully connected layers, which are used to make a prediction or classify the image.
+			CNNs are trained using a large dataset of labeled images, where the network learns to recognize patterns and features that are associated with specific objects or classes. Once trained, a CNN can be used to classify new images, or extract features for use in other applications such as object detection or image segmentation.</p>
+			<p>They are widely used in computer vision, image processing, and other related fields, and have been applied to a wide range of applications, including self-driving cars, medical imaging, and security systems.</p>
+			<ul>
+				<li>A convolutional neural network, or CNN, is a deep learning neural network sketched for processing structured arrays of data such as portrayals.</li>
+				<li>CNN are very satisfactory at picking up on design in the input image, such as lines, gradients, circles, or even eyes and faces.</li>
+				<li>This characteristic that makes convolutional neural network so robust for computer vision.</li>
+				<li>CNN can run directly on a underdone image and do not need any preprocessing.</li>
+				<li>A convolutional neural network is a feed forward neural network, seldom with up to 20.</li>
+				<li>CNN contains many convolutional layers assembled on top of each other, each one competent of recognizing more sophisticated shapes.</li>
+				<li>With three or four convolutional layers it is viable to recognize handwritten digits and with 25 layers it is possible to differentiate human faces.</li>
+			</ul>
+			
+		<div class="thumbnail-left">
+				 <img src="C:\Users\gurjeet\Documents\Downloads\1846982.png" alt="campaign" width="60%" height="10%">
+			</div>
+			<h4>CNN LAYERS</h4>
+				<p>A deep learning CNN consists of three layers: a convolutional layer, a pooling layer and a fully connected (FC) layer. The convolutional layer is the first layer while the FC layer is the last.
+From the convolutional layer to the FC layer, the complexity of the CNN increases. It is this increasing complexity that allows the CNN to successively identify larger portions and more complex features of an image until it finally identifies the object in its entirety.</p>
+			<b>Convolutional layer :</b><p>The majority of computations happen in the convolutional layer, which is the core building block of a CNN. A second convolutional layer can follow the initial convolutional layer. The process of convolution involves a kernel or filter inside this layer moving across the receptive fields of the image, checking if a feature is present in the image.
+
+Over multiple iterations, the kernel sweeps over the entire image. After each iteration a dot product is calculated between the input pixels and the filter. The final output from the series of dots is known as a feature map or convolved feature. Ultimately, the image is converted into numerical values in this layer, which allows the CNN to interpret the image and extract relevant patterns from it.</p>
+			<b>Pooling layer :</b><p>Like the convolutional layer, the pooling layer also sweeps a kernel or filter across the input image. But unlike the convolutional layer, the pooling layer reduces the number of parameters in the input and also results in some information loss. On the positive side, this layer reduces complexity and improves the efficiency of the CNN.</p>
+			<b>Fully connected layer :</b><p>he FC layer is where image classification happens in the CNN based on the features extracted in the previous layers. Here, fully connected means that all the inputs or nodes from one layer are connected to every activation unit or node of the next layer.
+
+All the layers in the CNN are not fully connected because it would result in an unnecessarily dense network. It also would increase losses and affect the output quality, and it would be computationally expensive.</p>
+	</section>
+	<!-- CNN SECTION END -->
+	<!-- APPLICAIONS section start-->
+	<a href="#applications" class="btn1">APPLICATIONS</a>
+	<section class="applications" id="applications">
+		<h1>APPLICATIONS OF G2C COLOR TRANSFORMATION</h1>
+		
+	</section>
+</body>
+</html>
